@@ -69,6 +69,7 @@ pip install torch transformers peft datasets tqdm loguru langchain langchain-ope
 To run the complete ODHybrid:
 
 ```bash
+cd ODHybrid/
 python ODHybrid.py
 ```
 
@@ -79,7 +80,7 @@ Inference results will be saved to `results.json` in the project root.
 To fine-tune your model using LoRA, navigate to the relevant directory and execute:
 
 ```bash
-cd fine-tuning\ strategy
+cd fine-tuning strategy/
 python my_lora.py
 ```
 
@@ -88,7 +89,7 @@ python my_lora.py
 After fine-tuning, merge the LoRA weights with your base model:
 
 ```bash
-cd fine-tuning\ strategy
+cd fine-tuning strategy/
 python my_merage.py
 ```
 
