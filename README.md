@@ -47,7 +47,7 @@ The ODHQA repository is organized as follows:
   - `my_lora.py`: LoRA fine-tuning.
   - `my_merage.py`: Weight merging.
 - **ODHybrid/**: Entry point for the end-to-end QA system—retrieval, prompt construction, and inference.
-  - `ODHybrid.py`: Entry point for the end-to-end QA system—retrieval, prompt construction, and inference.
+  - `ODHybrid.py`: Main pipeline combining retrieval & LLM reasoning
 
 ## Getting Started
 
