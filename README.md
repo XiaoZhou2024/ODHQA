@@ -107,9 +107,5 @@ Or **download the dataset directly** from our [Google Drive](https://drive.googl
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-## Contact
-
-For questions or suggestions, please contact [author@email.com] or open an issue in the repository.
-
 ---
 
