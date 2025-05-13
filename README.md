@@ -62,6 +62,16 @@ pip install torch transformers peft datasets tqdm loguru langchain langchain-ope
 1. **Download the dataset** from the link above and place the files in the `data/` directory.
 2. **Configure your environment**: Set up your `.env` file with the correct API base URL and secret key for your LLM provider.
 
+### Running the Inference Pipeline
+
+To run the complete ODHybrid:
+
+```bash
+python ODHybrid.py
+```
+
+Inference results will be saved to `results.json` in the project root.
+
 ### Fine-Tuning with LoRA
 
 To fine-tune your model using LoRA, navigate to the relevant directory and execute:
@@ -79,16 +89,6 @@ After fine-tuning, merge the LoRA weights with your base model:
 cd fine-tuning\ strategy
 python my_merage.py
 ```
-
-### Running the Inference Pipeline
-
-To run the complete QA pipeline (retrieval + reasoning):
-
-```bash
-python ODHybrid.py
-```
-
-Inference results will be saved to `results.json` in the project root.
 
 ## Download
 
