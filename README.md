@@ -22,16 +22,17 @@ The ODHQA repository is organized as follows:
 │   ├── train_dataset.json      # Training set
 │   ├── dev_dataset.json        # Development/validation set
 │   └── test_dataset.json       # Test set
-├── scripts/
+├── tools/
 │   ├── expression_calculator.py  # Arithmetic expression parsing and evaluation
 │   ├── operations_utils.py       # Sub-table/content extraction and JSON utilities
 │   └── ...
 ├── config/
 │   └── prompt_config.py        # Prompt templates for content extraction
-├── models/
+├── fine-tuning strategy/
 │   ├── my_lora.py              # LoRA fine-tuning script
 │   └── my_merage.py            # Merge LoRA weights into base model
-├── ODHybrid.py                 # Main pipeline combining retrieval & LLM reasoning
+├── ODHybrid/
+│   └── ODHybrid.py             # Main pipeline combining retrieval & LLM reasoning
 └── README.md                   # Project information
 ```
 
@@ -42,10 +43,11 @@ The ODHQA repository is organized as follows:
   - `expression_calculator.py`: Arithmetic expression parsing and calculation.
   - `operations_utils.py`: Functions for sub-table/sub-content extraction and JSON data handling.
 - **config/prompt_config.py**: Prompt templates for sub-table and content generation.
-- **models/**: Scripts for LoRA fine-tuning and merging LoRA weights into base models.
+- **fine-tuning strategy/**: Scripts for LoRA fine-tuning and merging LoRA weights into base models.
   - `my_lora.py`: LoRA fine-tuning.
   - `my_merage.py`: Weight merging.
-- **ODHybrid.py**: Entry point for the end-to-end QA system—retrieval, prompt construction, and inference.
+- **ODHybrid/**: Entry point for the end-to-end QA system—retrieval, prompt construction, and inference.
+  - `ODHybrid.py`: Entry point for the end-to-end QA system—retrieval, prompt construction, and inference.
 
 ## Getting Started
 
