@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ODHQA: An Open-Domain Hybrid Data Numerical Reasoning Question Answering Dataset  
 
 ## Introduction  
@@ -28,3 +29,6 @@ You can download the data directly from this repository by cloning or via the re
 
 ```bash  
 git clone https://github.com/your-username/ODHQA-dataset.git
+=======
+# ODHQA:An Open-Domain Hybrid Data Numerical Reasoning Question Answering Dataset
+>>>>>>> 378885a69e059d35c9ebf8f6e4742cc574963ce4
