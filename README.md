@@ -6,7 +6,7 @@
 
 Download the dataset here: [ODHQA Dataset (Google Drive)](https://drive.google.com/drive/folders/1koQcYExt5-GeAg_bXzN91wvXn2e96wZf?usp=drive_link)
 
-## Dataset Structure
+## Repository Structure
 
 The ODHQA repository is organized as follows:
 
