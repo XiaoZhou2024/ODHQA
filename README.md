@@ -13,9 +13,9 @@ The ODHQA repository is organized as follows:
 ```
 .
 ├── data/
-│   ├── train_dataset.json      # Training set
-│   ├── dev_dataset.json        # Development/validation set
-│   └── test_dataset.json       # Test set
+│   ├── train_dataset.json      # Training set examples
+│   ├── dev_dataset.json        # Development/validation set examples
+│   └── test_dataset.json       # Test set examples
 ├── tools/
 │   ├── expression_calculator.py  # Arithmetic expression parsing and evaluation
 │   ├── operations_utils.py       # Sub-table/content extraction and JSON utilities
